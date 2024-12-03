@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love| Human bests feelings</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    #bg{
+        background-image: url(./img/bg.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+</style>
+<body id="bg">
+    <section class="container">
+        <div class="row">
+            <div class="col d-none d-lg-block d-sm-none d-md-none"></div>
+            <div class="col py-2 border-3 shadow mt-5">
+                <h1 class="text-center py-2">Love Calculator &#10084;</h1>
+                <div>
+                    <div class="my-3">
+                        <p>Calculate the chance of love between two people</p>
+                    </div>
+                    <div class="input-group flex-nowrap my-3">
+                        <input id="firstPerson" type="text" class="form-control" placeholder="First person name" aria-label="firstName" aria-describedby="addon-wrapping">
+                    </div>
+                    <div class="input-group flex-nowrap my-3">
+                        <input id="secondPerson" type="text" class="form-control" placeholder="Second person name" aria-label="lastName" aria-describedby="addon-wrapping">
+                    </div>
+                    <div class="my-3">
+                        <button type="button" class="btn btn-1 rounded-pill btn-danger w-100 fw-bold py-2" id="calculate">Calculate</button>
+                    </div>
+                    <div class="my-3" id="showcase1"></div>
+                    <div class="my-3" id="showcase2"></div>
+                </div>
+            </div>
+            <div class="col d-none d-lg-block d-sm-none d-md-none"></div>
+        </div>
+        
+</section>
+<script src="./script.js"></script>
+</body>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+<script src="./bootstrap.js"></script>
+</html>
