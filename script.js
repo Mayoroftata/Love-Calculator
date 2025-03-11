@@ -19,11 +19,8 @@ const lover1 = document.getElementById("firstPerson")
 const lover2 = document.getElementById("secondPerson")
 calculate.addEventListener('click', ()=>{
     const percentage = Math.floor(Math.random()*100)
-    //alert('Working perfectly')
-    // console.log(lover1.value);
-    // console.log(lover2.value);
+    
     if (lover1.value==="" || lover2.value==="") {
-        //alert("fill in your names")
         toast('Fill in your names','red', 3000)
     } else if (percentage<=40){
         showcase(percentage)
